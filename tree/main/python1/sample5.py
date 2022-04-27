@@ -1,4 +1,12 @@
-A = 3127
-B = 8201
+#3127
+#8201
+a = 8201
+b = 3127
 
-C = B % A 
+def  Euc(a,b):
+    if b == 0:
+        return a
+    else:
+        return Euc(b,a%b)
+
+print(Euc(a,b))
