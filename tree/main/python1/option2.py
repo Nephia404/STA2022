@@ -1,0 +1,6 @@
+print("わ")
+print("か")
+print("ら")
+print("な")
+print("い")
+print("。")
